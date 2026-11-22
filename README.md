@@ -1,2 +1,4 @@
 # Python_medical_data_validator
-The Medical Data Validator is a guided Python project where you build a system that checks whether medical records are correctly structured and formatted.
+
+The Medical Data Validator is a lightweight Python tool designed to ensure the integrity and consistency of medical record data. It validates collections of patient records by checking that each entry follows strict formatting rules for fields such as patient_id, age, gender, diagnosis, medications, and last_visit_id. The validator confirms correct data types, allowed values, and proper ID formats (e.g., P#### for patient IDs and V#### for visit IDs) based on the freeCodeCamp Scientific Computing with Python Certification guidelines 
+. It also provides detailed error messages identifying invalid fields, the problematic values, and the index of the affected record, helping users quickly diagnose and correct data issues. The project includes two core functions—find_invalid_records() and validate()—which work together to analyze each record and report structural or field‑level inconsistencies
